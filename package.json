@@ -1,17 +1,17 @@
 {
   "name": "parcel-gh-pages-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Parcel & GitHub Pages test project",
+  "main": "src/app.js",
   "scripts": {
     "prestart": "rm -rf dist",
     "start": "parcel src/index.html",
     "prebuild": "rm -rf dist",
     "build": "parcel build src/index.html --public-url ./",
-    "predeploy": "rm -rf dist && parcel build src/index.html --public-url /parcel-gh-pages-test",
+    "predeploy": "rm -rf dist && parcel build src/index.html --public-url /parcel-gh-pages-test/",
     "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
+  "homepage": "https://akgunakgunduz.github.io/parcel-gh-pages-test/",
   "author": "Akgün Akgündüz",
   "license": "ISC",
   "devDependencies": {
